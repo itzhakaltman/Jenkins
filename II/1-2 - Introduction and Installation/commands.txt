@@ -1,0 +1,15 @@
+docker ps
+
+docker-compose --version
+
+docker images
+
+docker info | grep -i root
+
+sudo du -sh /var/lib/docker
+
+chown 1000:1000 jenkins_home/ -R
+
+docker logs -f jenkins
+
+
