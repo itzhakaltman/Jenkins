@@ -12,4 +12,4 @@ chown 1000:1000 jenkins_home/ -R
 
 docker logs -f jenkins
 
-
+docker-compose up -d
